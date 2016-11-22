@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"
-    import="java.sql.*, javax.naming.*, javax.sql.*"
+    import="java.sql.*, javax.naming.*, javax.sql.*,java.io.*"
  %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -31,6 +31,8 @@
         String date = rs.getString(3);
         String time = rs.getString(4);
         String memo = rs.getString(5);
+        
+        
         System.out.println
              ("ID："+id+" title:"+title+" date:"+date+" time:"+time+"memo:"+memo);
       } 
