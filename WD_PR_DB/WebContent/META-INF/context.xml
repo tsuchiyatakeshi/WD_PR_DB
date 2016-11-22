@@ -1,0 +1,2 @@
+<Context displayName="MySQL Samples" docBase="jsp" path="WD_PR_DB" reloadable="true">
+	<Resource name="jdbc/WD_PR_DB" auth="Container" type="javax.sql.DataSource" username="tsuchiya" password="" driverClassName="com.mysql.jdbc.Driver" maxWait="5000" url="jdbc:mysql://localhost/webdesign?useUnicode=true&amp;amp;characterEncoding=UTF-8"></Resource></Context>
